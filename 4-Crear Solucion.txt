@@ -1,0 +1,21 @@
+crear solucion 
+    dotnet sln -o [path and name]
+
+
+luego de crear la solucion, podemos entrar en la carpeta 
+y crear nuestros proyectos 
+
+para agregar los proyectos creados a dicha solucion 
+ejecutamos el siguiente comando
+
+    dotnet sln "[nombre proyecto]" add "[ruta proyecto\proyecto.csproj]"
+
+
+para listar los proyectos que contiene una solucion 
+
+    dotnet sln ls 
+
+
+para conocer otras opciones de la solucio 
+
+    dotnet sln -h
