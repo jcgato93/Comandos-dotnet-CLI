@@ -1,0 +1,5 @@
+En la terminal de comandos 
+
+ dotnet -l 
+
+esta listara todas las opciones disponibles del dotnet CLI
