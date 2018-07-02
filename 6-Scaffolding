@@ -1,0 +1,32 @@
+para poder utilizar Scaffolding primero
+se debe instalar un paquete de Nuget en nuestro proyecto
+
+    dotnet add package Microsoft.VisualStudio.Web.CodeGeneration.Design
+
+
+Compilamos el proyecto
+ya para utilizar Scaffolding utillizamos el siguiente comando
+
+    dotnet aspnet-codegenerator  -h    (para conocer las opciones)
+
+Crear Controller
+    dotnet aspnet-codegenerator controller -h   (para conocer las opciones)
+
+    dotnet aspnet-codegenerator controller  -name [nombre cotrolador]  -api   -actions -outDir [Carpeta] (la opcion api para que lo cree como una api , es decir que no tedra la opcion de crear vistas apartir de este
+                                                                                                            -actions  crea las acciones por defecto 
+                                                                                                            -outDir  para especificar la carpeta de destino)
+
+
+Crear Controller con modelo 
+
+    dotnet aspnet-codegenerator controller  -name [nombre cotrolador]  -nv   -actions -outDir [Carpeta] -m [Modelo] -dc [dbContext] (-nv  no views 
+                                                                                                                                    -m modelo
+                                                                                                                                    -dc dbContext)
+
+
+Crear Vistas 
+
+    dotnet aspnet-codegenerator controller  -name [nombre cotrolador]     -actions -outDir [Carpeta] -m [Modelo] -dc [dbContext] (
+                                                                                                                                  -m modelo
+                                                                                                                                  -dc dbContext)
+
