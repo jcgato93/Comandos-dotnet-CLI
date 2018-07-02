@@ -8,3 +8,6 @@ y se ejecuta el siguiente comando para compilarlo
 para ejecutar el proyecto 
 
  dotnet run
+
+
+ 
