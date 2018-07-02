@@ -1,0 +1,10 @@
+para compilar 
+
+primero debebos estar dentro de la carpeta del proyecto
+y se ejecuta el siguiente comando para compilarlo
+
+    dotnet build 
+
+para ejecutar el proyecto 
+
+ dotnet run
